@@ -1,0 +1,13 @@
+.info-sidebar {
+    float: right;
+    min-height: 400px;
+}
+
+.info-sidebar div {
+    position: absolute;
+    pointer-events: none;
+}
+
+.info-sidebar, .info-sidebar div {
+    width: 200px;
+}

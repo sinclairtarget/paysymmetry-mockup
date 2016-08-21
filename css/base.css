@@ -1,0 +1,58 @@
+@import url("groups_sidebar.css");
+@import url("info_sidebar.css");
+@import url("header.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    min-width: 960px;
+    font-size: 62.5%;
+    color: white;
+    background-color: #636363;
+}
+
+.page {
+    height: 100%;
+    padding-top: 54px;
+    background-color: #f0f7f2;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+p, a {
+    font-size: 2.25em;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
