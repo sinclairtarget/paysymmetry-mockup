@@ -46,7 +46,7 @@ h4 {
     font-size: 2.5em;
 }
 
-p, a {
+p, li, .btn a {
     font-size: 2.25em;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
 }
@@ -55,4 +55,25 @@ a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+}
+
+main {
+    color: #636363;
+    overflow: auto;
+}
+
+.btn {
+    padding: 12px 8px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn-solid {
+    text-align: center;
+    background-color: #929292;
+    color: white;
+}
+
+.btn-solid:hover {
+    background-color: #afafaf;
 }

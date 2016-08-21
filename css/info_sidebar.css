@@ -1,13 +1,48 @@
 .info-sidebar {
     float: right;
-    min-height: 400px;
+    width: 240px;
+    margin: 20px;
+    padding: 14px;
+    border: 1px solid #cacaca;
+    background-color: white;
 }
 
-.info-sidebar div {
+.info-sidebar .heading {
+    position: relative;
+    line-height: 1.4;
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 6px;
+}
+
+.info-sidebar .fa-pencil {
     position: absolute;
-    pointer-events: none;
+    top: 4px;
+    right: 0;
+    cursor: pointer;
 }
 
-.info-sidebar, .info-sidebar div {
-    width: 200px;
+.info-sidebar .fa-pencil:hover {
+    color: orange;
+}
+
+.info-sidebar ul.info {
+    padding: 16px 0;
+    border-bottom: 1px solid #cacaca;
+}
+
+.info-sidebar ul.info li {
+    line-height: 1.4;
+}
+
+.info-sidebar ul.info li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.info-sidebar ul.info li:nth-child(even) {
+    padding-left: 20px;
+    padding-bottom: 6px;
+}
+
+.info-sidebar ul.info li:last-child {
+    padding-bottom: 0;
 }

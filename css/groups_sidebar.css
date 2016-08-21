@@ -30,9 +30,7 @@
 
 .groups-list li:first-child {
     background-color: #4e4e4e;
-    /* border-left: 2px solid orange; */
-    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;
+    border-left: 2px solid orange;
     color: white;
 }
 
@@ -54,12 +52,12 @@ footer {
     text-align: center;
 }
 
-footer a {
+footer li {
     line-height: 1.4;
     font-size: 1.75em;
     color: #929292;
 }
 
-footer a:hover {
+footer li:hover {
     color: white;
 }
