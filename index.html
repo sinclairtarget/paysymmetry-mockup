@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/base.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+    <script src="global.js"></script>
     <title>PaySymmetry</title>
   </head>
   <body>
@@ -62,9 +64,12 @@
               <h2 class="median">$89,000</h2>
               <p class="caption">Median Salary <br/>(All Members)</p>
             </div>
+            <div class="canvas-holder">
+              <canvas id="salary-dist" width="300" height="300"></canvas>
+            </div>
           </div>
           <div class="section">
-            <p class="caption">Individual Salaries</p>
+            <p class="caption">Median Salary by Title</p>
           </div>
           <div class="section">
             <p class="caption">Salary Distribution by Gender</p>

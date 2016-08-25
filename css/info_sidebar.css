@@ -1,5 +1,7 @@
 .info-sidebar {
-    float: right;
+    position: fixed;
+    top: 74px;
+    right: 20px;
     width: 240px;
 }
 

@@ -58,6 +58,7 @@ a {
 }
 
 main {
+    height: 100%;
     color: #636363;
     padding: 20px;
     overflow: auto;
@@ -86,9 +87,14 @@ main {
     background-color: white;
 }
 
+.section:last-of-type {
+    margin-bottom: 0px;
+}
+
 .sections-holder {
     overflow: hidden;
     padding-right: 20px;
+    margin-right: 240px;
 }
 
 .company-heading {
@@ -123,4 +129,10 @@ main {
     font-weight: 600;
     line-height: 1.2;
     color: #909090;
+}
+
+.canvas-holder {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto 0 auto;
 }
