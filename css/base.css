@@ -114,13 +114,19 @@ main {
     line-height: 1.11;
 }
 
-.median-summary {
-    padding: 16px;
+.stat-summary {
+    padding: 24px;
     text-align: center;
 }
 
-.median-summary .median {
-    margin-bottom: 10px;
+.stat-item {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.stat-item h2 {
+    margin-bottom: 0.4em;
+    color: rgb(0, 119, 137);
 }
 
 .caption {
@@ -132,7 +138,6 @@ main {
 }
 
 .canvas-holder {
-    width: 300px;
-    height: 300px;
-    margin: 20px auto 0 auto;
+    width: 90%;
+    margin: 0 auto 60px auto;
 }
