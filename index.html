@@ -52,14 +52,33 @@
           </div>
         </aside>
         <div class="sections-holder">
-          <div class="section">
-            <h3 class="company-heading">Dots
-              <span class="member-count"><i class="fa fa-user"></i> 14</span>
+          <div class="section company-section">
+            <h2 class="company-heading">Dots</h2>
+            <h3 class="company-util">
               <span class="title-select">All Titles <i class="fa fa-angle-down"></i></span>
-            </h3>
+              <span><i class="fa fa-user"></i> 14</span>
+            </p>
           </div>
           <div class="section">
-            <p class="caption">Overall Salary Distribution</p>
+            <p class="caption">Summary</p>
+            <table class="stat-summary">
+              <tr class="stat-numbers">
+                <td>4</td>
+                <td class="emphasize">$89K</td>
+                <td>2</td>
+              </tr>
+              <tr class="stat-captions">
+                <td>Members<br>with Your Title</td>
+                <td>Median Salary<br>for Your Title</td>
+                <td>Your Rank<br>within Your Title</td>
+              </tr>
+            </table>
+          </div>
+          <div class="section">
+            <p class="caption">Salaries</p>
+          </div>
+          <div class="section">
+            <p class="caption">Salary Distribution</p>
             <div class="stat-summary">
               <div class="stat-item">
                 <h2>$67,000</h2>
@@ -77,6 +96,9 @@
             <div class="canvas-holder">
               <canvas id="salary-dist" width="300" height="360"></canvas>
             </div>
+          </div>
+          <div class="section">
+            <p class="caption">Salary Scatter Plot</p>
             <div class="canvas-holder">
               <canvas id="salary-scatter" width="300" height="360"></canvas>
             </div>

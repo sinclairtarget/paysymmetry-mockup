@@ -17,10 +17,11 @@
     top: 4px;
     right: 0;
     cursor: pointer;
+    color: #4f696f;
 }
 
 .info-sidebar .fa-pencil:hover {
-    color: orange;
+    color: #6c858a;
 }
 
 .info-sidebar ul.info {
@@ -37,7 +38,6 @@
 }
 
 .info-sidebar ul.info li:nth-child(even) {
-    padding-left: 20px;
     padding-bottom: 6px;
 }
 
