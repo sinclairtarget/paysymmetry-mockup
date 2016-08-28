@@ -46,7 +46,7 @@ h4 {
     font-size: 2.5em;
 }
 
-p, li, .btn a {
+p, li, .btn a, th, td {
     font-size: 2.25em;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
 }
@@ -97,8 +97,9 @@ main {
     margin-right: 240px;
 }
 
-.company-section {
+.company-holder {
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .company-heading {
@@ -122,25 +123,24 @@ main {
 }
 
 .stat-summary {
-    margin: -6px auto 0 auto;
-    width: 80%;
+    margin: auto;
+    width: 66%;
     text-align: center;
     table-layout: fixed;
 }
 
 .stat-numbers td {
-    font-size: 6em;
+    font-size: 7em;
     font-weight: bold;
-    font-family: Trebuchet MS;
+    font-family: "Roboto", sans-serif;
     padding: 6px;
 }
 
 .stat-numbers td.emphasize {
-    font-size: 7em;
+    font-size: 8em;
 }
 
 .stat-captions td {
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
     padding: 6px;
 }
 
@@ -154,6 +154,30 @@ main {
 
 .section > .caption {
     margin-bottom: 20px;
+}
+
+.salary-table {
+    margin: 0 auto 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.salary-table th, .salary-table td {
+    padding: 8px;
+}
+
+.salary-table tbody tr:first-of-type {
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    text-align: left;
+}
+
+.salary-table tbody tr:first-of-type td:last-of-type {
+    text-align: right;
+}
+
+.salary-table tbody tr:nth-of-type(even) {
+    background-color: #e5f1f3;
 }
 
 .canvas-holder {
