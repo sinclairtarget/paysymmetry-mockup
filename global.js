@@ -26,8 +26,9 @@ window.onload = function() {
                    ticks: {
                       min: 0,
                       max: 8
-                  }
-               }]
+                  }, scaleLabel: { display: true, labelString: "Count" }
+               }],
+        xAxes: [{ scaleLabel: { display: true, labelString: "Range"}}]
             }
         }
     });
